@@ -1,0 +1,14 @@
+footer {
+  text-align: center;
+  background-color: #3e3e40;
+  color: white;
+}
+
+.mainbox {
+  border: 1px solid #686c73;
+  width: 610px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
