@@ -24,11 +24,21 @@ h1 {
 
 h2 {
   font-size: 20px;
-  font-weight: lighter;
-  color: #282828;
+  font-weight: bold;
+  color: #595959;
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 16px;
   padding-bottom: 5px;
+  text-shadow: 1px 1px 3px #a6a6a6;
+}
+
+.desc-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.desc-link:hover {
+  text-decoration: underline black;
 }
 
 .mainbox {
@@ -49,14 +59,26 @@ footer {
   color: #919191;
 }
 
+.sns-img {
+  width: 20px;
+  height: 20px;
+}
+
+.sns-wrap {
+  text-align: right;
+}
+
+.title-box {
+  text-align: right;
+}
+
 section {
   margin-bottom: 24px;
 }
 
 .name-text {
   font-size: 17px;
-  color: #7c7c7c;
-  font-weight: bold;
+  color: #595959;
 }
 
 .about-me-text {
