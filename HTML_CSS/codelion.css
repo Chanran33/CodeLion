@@ -32,6 +32,11 @@ h2 {
   text-shadow: 1px 1px 3px #a6a6a6;
 }
 
+a:visited {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
 .desc-link {
   text-decoration: none;
   cursor: pointer;
@@ -82,7 +87,7 @@ section {
 }
 
 .about-me-text {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16px;
 }
 
